@@ -273,6 +273,8 @@ set(msg_files
 	versioned/VehicleStatus.msg
 	versioned/VtolVehicleStatus.msg
 	versioned/Wind.msg
+	# for onboard neural network control
+	VehicleThrustAccSetpoint.msg
 )
 list(SORT msg_files)
 
